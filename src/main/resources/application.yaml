@@ -14,10 +14,7 @@ spring:
   server:
     port: ${PORT:8080}                        # Railway injects PORT automatically
 
-  # CORS — update FRONTEND_URL in Railway env vars after Vercel deploy
-  app:
-    cors:
-      allowed-origins: ${FRONTEND_URL:http://localhost:3000,http://127.0.0.1:5500}
+
 
   # Actuator for Railway health checks
   management:
