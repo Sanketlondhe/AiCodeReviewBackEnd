@@ -1,0 +1,14 @@
+com\example\aicodereview\config\AiConfig.class
+com\example\aicodereview\config\CorsConfig.class
+com\example\aicodereview\service\CodeReviewService.class
+com\example\aicodereview\dto\ReviewRequest$ReviewRequestBuilder.class
+com\example\aicodereview\service\CodeReviewServiceImpl.class
+com\example\aicodereview\exception\CodeReviewException.class
+com\example\aicodereview\exception\GlobalExceptionHandler.class
+com\example\aicodereview\controller\CodeReviewController.class
+com\example\aicodereview\dto\ApiErrorResponse$ApiErrorResponseBuilder.class
+com\example\aicodereview\dto\ReviewResponse.class
+com\example\aicodereview\dto\ReviewResponse$ReviewResponseBuilder.class
+com\example\aicodereview\dto\ReviewRequest.class
+com\example\aicodereview\AiCodeReviewApplication.class
+com\example\aicodereview\dto\ApiErrorResponse.class
