@@ -23,7 +23,7 @@ public class CodeReviewServiceImpl implements CodeReviewService {
     private final ChatClient chatClient;
 
     // Spring loads the .st file from classpath:/prompts/
-    @Value("classpath:prompts/code-review-prompt.st")
+    @Value("classpath:templates/code-review-prompt.st")
     private Resource promptTemplate;
 
     @Override
