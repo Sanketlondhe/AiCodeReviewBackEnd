@@ -25,6 +25,13 @@ public class CodeReviewException extends RuntimeException {
         this.userMessage = message;
     }
 
+    // ✅ THIS was missing — 4-arg constructor used in ServiceImpl
+    public CodeReviewException(String message, String userMessage, HttpStatus status, Throwable cause) {
+        super(message, cause);
+        this.status = status;
+        this.userMessage = userMessage;
+    }
+
     public HttpStatus getStatus() { return status; }
     public String getUserMessage() { return userMessage; }
 }
